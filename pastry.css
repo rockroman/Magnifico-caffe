@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3f3e37;
+    height: 100vh;
+   
+}
+hr{
+    width: 95%;
+}
+main{
+    
+    height: 1200px;
+    position: relative;
+}
+header{
+    background-color: black;
+    height: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+    padding-left: 60px;
+
+
+}
+h1{
+    color: white;
+    font-size: 50px;
+
+}
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    background-color:#CC9544 ;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-left: 120px;
+
+}
+button a{
+    text-decoration: none;
+    color:rgba(14, 14, 14, 0.902) ;
+    
+}
+.social-media{
+   
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+}
+.social-media a{
+    color: rgb(57, 151, 183);
+
+}
+.social-media a:hover{
+    color: aliceblue;}
+.pastries-blackboard{
+    position: absolute;
+    right: 80px;
+    color:rgba(0, 0, 0, 0.902) ;
+    font-size: 35px;
+    font-weight: 900;
+    
+    top: 20px;
+    right: 20px;
+    text-align: center;
+   
+}
+.pastries-blackboard li{
+    list-style-type: none;
+    line-height:60px ;
+}
+
+.croasan img{
+    width: 400px;
+   margin:30px 0px 0px 40px;
+
+}
+.danish img{
+    width: 350px;
+    height: 300px;
+    margin: 20px 0px 0px 140px;
+    border-radius: 10px;
+
+}
+.bagel img{
+    width: 380px;
+    height: 500px;
+    background-size: contain;
+  
+    margin-top: 15px;
+    margin-left: 70px;
+    border-radius: 10px;
+
+}
+.cinnamon img{
+    width: 410px;
+    position: absolute;
+    top: 580px;
+    right: 220px;
+
+}
+.blackboard {
+    width: 400px;
+    height: 540px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border-radius: 10px;
+   
+    background-image: url(/images/blackboard-pastry.jpg);
+
+}
+.scones img{
+    position: absolute;
+    right: 120px;
+    bottom: 10px;
+    border-radius: 10px;
+
+}
+.muffins img{
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    right: 460px;
+    top: 240px;
+    border-radius: 10px;
+  
+
+}
+.top-logo img{position: absolute;
+    top:30px;
+    left: 520px;
+    width: 170px;
+    border-radius: 51%;
+
+}
+footer{
+    
+    height: 60px;
+    background-color:rgb(4, 4, 22) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:#F0ECE3 ;
+    font-size: 18px;
+    font-family: 'BIZ UDGothic', sans-serif;
+
+}
