@@ -116,3 +116,79 @@ footer{
     width: 130px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 380px) {
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+   main{
+       background-size:cover;
+       width:100%;
+       margin-bottom:15px;
+      
+   }  
+   header{
+    height:60px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-left: 10px;
+        
+}
+h1{
+    font-size: 25px;
+}
+.top-logo img{
+    
+  height:90px;
+    margin-left: 20px;
+    width:70px;
+    height: 60px;
+    }
+  .top-logo{
+      width: 100px;
+     
+  }  
+hr{
+    margin-left:30px;
+    height:1px;
+    width:85%;
+   
+}
+.nav-1{
+    height:400px;
+    }
+.nav-1 ul{
+    flex-direction:column;
+    justify-content:space-evenly;
+    width: 200px;
+}
+.nav-1 li{
+    line-height: 20px;
+}
+
+footer{
+    gap: 10px;
+
+}
+.foot-logo img{
+    height: 50px;
+    width: 90px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.social-media{
+    font-size: 20px;
+    gap: 5px;
+}
+.trade-mark{
+    color: white;
+    font: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
