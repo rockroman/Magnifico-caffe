@@ -348,6 +348,15 @@ footer{
    }
 
 @media screen and (max-width: 375px){
+     h1{
+        margin-left: 10px;
+    }
+    .top-logo img{
+        margin-top: 30px;
+    }
+    hr{
+        margin-left: 20px;
+    }
    
     footer{
        height:90px;
