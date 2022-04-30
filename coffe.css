@@ -534,28 +534,28 @@ footer{
     .img1{
         position: absolute;
         height: 150px;
-        width: 120px;
+        width: 115px;
         bottom: 10px;
-        right: 120px;
+        right: 117px;
         margin-top: 20px;
     }
     .img2{
         height: 170px;
-        width: 180px; 
+        width: 175px; 
         position: absolute;
         top: 445px;
         right: 10px;
     }
     .img4{
         height: 170px;
-        width: 180px; 
+        width: 175px; 
         margin-top: 10px;
         background-repeat: no-repeat;
 
     }
     .img5{
         height: 150px;
-        width: 130px; 
+        width: 125px; 
         position: absolute;
         bottom: 10px;
         margin-top: 20px;
