@@ -259,7 +259,8 @@ h1{
 
 
 .container{
-    grid-template-rows: 340px 340px 360px;
+    grid-template-rows: 330px 320px 300px;
+    margin-bottom: 45px;
 }
 .black-board{
     grid-row-end: 3;
@@ -271,18 +272,42 @@ h1{
     font-size: 16px;
     grid-row-start: 1;
     grid-row-end: 2;
-    height: 340px;
+    height: 330px;
 
  
 }
 .img3{
-    height: 340px;
+    height: 320px;
     background-repeat: no-repeat;
     background-size: cover;    
 }
 .img4{
     background-repeat: no-repeat;
     background-size: cover;     
+}
+footer{
+    height: 90px;
+    margin-top: 10px;
+    gap: 30px;
+}
+.social-media{
+   
+
+}
+
+@media screen and (max-width:835px){
+    .container{
+        grid-template-rows: 340px 340px 360px;
+        margin-bottom: 10px;
+    }
+    .img3{
+        height: 340px;
+    }
+    footer{
+        margin-bottom: 30px;
+        height: 125px;
+    }
+
 }
 
 
@@ -307,13 +332,242 @@ h1{
 @media screen and (max-width:770px){
 
     .container{
-        grid-template-rows: 300px 300px 350px;
+        grid-template-rows: 290px 290px 340px;
+    }
+    .img3{
+        height: 290px;
+    }
+    .barista-message{
+        font-size: 15px;
+        height: 290px;
     }
   
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:435px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+     }
+     .black-board{
+        font-size: 15px;
+        padding-bottom: 5px;
+        height: 200px;
+       
+    }
+    ul{
+        margin-top: 0px;
+        line-height: 15px;
+      
+    }
+    li{
+        padding-top: 5px;
+    }
+    .barista-message{
+        height: 220px;
+        font-size: 20px;
+    }
+    .img3{
+        position: absolute;
+        height: 170px;
+        width: 95px;
+        bottom: 10px;
+        right: 10px;
+        margin-top: 20px;
+    }
+    .img1{
+        position: absolute;
+        height: 170px;
+        width: 140px;
+        bottom: 10px;
+        right: 120px;
+        margin-top: 20px;
+    }
+    .img2{
+        height: 200px;
+        width: 190px; 
+        position: absolute;
+        top: 455px;
+        right: 10px;
+    }
+    .img4{
+        height: 200px;
+        width: 190px; 
+
+    }
+    .img5{
+        height: 170px;
+        width: 140px; 
+        position: absolute;
+        bottom: 10px;
+        margin-top: 20px;
+    }
+    footer{
+        height: 80px;
+        flex-direction: column;
+        justify-content: center;
+      margin-left: 10px;
+      gap: 15px;
+      padding-bottom: 90px;
+       
+    }
+    .trade-mark{
+        flex-direction: column;
+        height: 70px;
+        gap: 10px;
+        margin-bottom: 30px;
+        
+    }
+    .social-media{
+        margin-top: 85px;
+        margin-bottom:10px;
+    }
+    h1{
+        padding-left: 50px;
+        font-size: 30px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:415px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+     }
+     .black-board{
+        font-size: 15px;
+        padding-bottom: 5px;
+        height: 200px;
+       
+    }
+    ul{
+        margin-top: 0px;
+        line-height: 15px;
+      
+    }
+    li{
+        padding-top: 5px;
+    }
+    .barista-message{
+        height: 200px;
+    }
+    .img3{
+        position: absolute;
+        height: 170px;
+        width: 105px;
+        bottom: 10px;
+        right: 10px;
+        margin-top: 20px;
+    }
+    .img1{
+        position: absolute;
+        height: 170px;
+        width: 125px;
+        bottom: 10px;
+        right: 125px;
+        margin-top: 20px;
+    }
+    .img2{
+        height: 190px;
+        width: 180px; 
+        position: absolute;
+        top: 445px;
+        right: 10px;
+    }
+    .img4{
+        height: 190px;
+        width: 190px; 
+        margin-top: 10px;
+
+    }
+    .img5{
+        height: 170px;
+        width: 135px; 
+        position: absolute;
+        bottom: 10px;
+        margin-top: 20px;
+    }
+    footer{
+        height: 80px;
+        flex-direction: column;
+        justify-content: center;
+      margin-left: 10px;
+      gap: 15px;
+      padding-bottom: 90px;
+       
+    }
+    .trade-mark{
+        flex-direction: column;
+        height: 70px;
+        gap: 10px;
+        margin-bottom: 30px;
+        
+    }
+    .social-media{
+        margin-top: 85px;
+        margin-bottom:10px;
+    }
+    h1{
+        padding-left: 50px;
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width:395px){
+
+    .img3{
+        position: absolute;
+        height: 150px;
+        width: 105px;
+        bottom: 10px;
+        right: 10px;
+        margin-top: 20px;
+    }
+    .img1{
+        position: absolute;
+        height: 150px;
+        width: 120px;
+        bottom: 10px;
+        right: 120px;
+        margin-top: 20px;
+    }
+    .img2{
+        height: 170px;
+        width: 180px; 
+        position: absolute;
+        top: 445px;
+        right: 10px;
+    }
+    .img4{
+        height: 170px;
+        width: 180px; 
+        margin-top: 10px;
+        background-repeat: no-repeat;
+
+    }
+    .img5{
+        height: 150px;
+        width: 130px; 
+        position: absolute;
+        bottom: 10px;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:376px) {
     h1{
         padding-left: 50px;
         font-size: 30px;
@@ -323,7 +577,6 @@ h1{
          display: flex;
          flex-direction: column;
          position: relative;
-      
       }
       .black-board{
           font-size: 15px;
@@ -341,11 +594,12 @@ h1{
       }
       .barista-message{
           height: 160px;
+          font-size: 17px;
       }
       .img3{
           position: absolute;
           height: 150px;
-          width: 80px;
+          width: 90px;
           bottom: 10px;
           right: 10px;
           margin-top: 20px;
@@ -353,16 +607,16 @@ h1{
       .img1{
           position: absolute;
           height: 150px;
-          width: 110px;
+          width: 120px;
           bottom: 10px;
-          right: 100px;
+          right: 110px;
           margin-top: 20px;
       }
       .img2{
           height: 170px;
-          width: 140px; 
+          width: 150px; 
           position: absolute;
-          top: 395px;
+          top: 405px;
           right: 10px;
       }
       .img4{
@@ -401,6 +655,38 @@ h1{
   h1 button {
       height: 30px;
       width: 100px;
-      font-size: 15px;}
+      font-size: 15px;
+    }
     
 }
+
+
+@media screen and (max-width:365px){
+
+    .img5{
+        height: 150px;
+        width: 115px; 
+        position: absolute;
+        bottom: 10px;
+        margin-top: 20px;
+    }
+    .img1{
+        position: absolute;
+        height: 150px;
+        width: 110px;
+        bottom: 10px;
+        right: 110px;
+        margin-top: 20px;
+    }
+    .img3{
+        position: absolute;
+        height: 150px;
+        width: 90px;
+        bottom: 10px;
+        right: 10px;
+        margin-top: 20px;
+    }
+
+
+}
+
