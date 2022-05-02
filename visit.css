@@ -265,6 +265,21 @@ footer{
 
 }
 
+
+@media screen and (max-width:395px){
+
+.message{
+    font-size: 25px;
+    line-height: 25px;
+}
+header{
+    height: 150px;
+}
+
+}
+
+
+
 @media screen and (max-width:330px){
    
 .social-media{
