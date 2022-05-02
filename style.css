@@ -385,7 +385,7 @@ footer{
 
 
     h1{
-        margin-left: 80px;
+        margin-left: 9%;
     }
 
   
@@ -399,16 +399,16 @@ footer{
 
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 376px){
 
     h1{
-        margin-left: 5%;
+        margin-left: 7%;
     }
     .top-logo img{
         margin-top: 30px;
     }
     hr{
-        margin-left: 7%;
+        margin-left: 9%;
     }
     .nav-1{
         height: 650px;
